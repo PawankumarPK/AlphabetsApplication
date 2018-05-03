@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.hp.alphabetapp.Tab1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:orientation="horizontal">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/elephant"
+                    android:id="@+id/alphaA"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="80dp"/>
+
+
+              <!--  <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/a1"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="0dp"/>-->
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elephant"
+                    android:textSize="50dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
+
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/music_one"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/play"
+                    android:layout_gravity="center"/>
+
+              <!--  <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play"
+                    android:id="@+id/play"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_centerInParent="true" />-->
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+
+    </LinearLayout>
+</LinearLayout>
